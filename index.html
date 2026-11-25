@@ -1332,7 +1332,7 @@ function render(){
   $('#app').innerHTML = `
   <header class="top">
     <div class="brand">${esc(c.ORG_NAME)} · Roster</div>
-    <span class="badge ${API_URL ? 'live' : 'demo'}">${API_URL ? 'Live · Google Sheets' : 'Demo data'}</span>
+    <span class="badge ${API_URL ? 'live' : 'demo'}">${API_URL ? 'Live' : 'Demo data'}</span>
     <span class="spacer"></span>
     <span class="upd small muted nowrap" id="sync" title="Background sync every ${esc(c.REFRESH_SECONDS)}s"></span>
     <button class="btn sm" id="refresh" title="Refresh from server">↻</button>
